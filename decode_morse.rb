@@ -1,27 +1,26 @@
 def decode_char(str)
-  case str
-  when '.-'
-    'A'
-  when '-...'
-    'B'
-  when '---'
-    'O'
-  when '-..-'
-    'X'
-  when '..-.'
-    'F'
-  when '..-'
-    'U'
-  when '.-..'
-    'L'
-  when '.-.'
-    'R'
-  when '..'
-    'I'
-  when '.'
-    'E'
-  when '...'
-    'S'
+  if str == ".-"
+    return "A"
+  elsif str == "-..."
+    return "B"
+  elsif str == "---"
+    return "O"
+  elsif str == "-..-"
+    return "X"
+  elsif str == "..-."
+    return "F"
+  elsif str == "..-"
+    return "U"
+  elsif str == ".-.."
+    return "L"
+  elsif str == ".-."
+    return "R"
+  elsif str == ".."
+    return "I"
+  elsif str == "."
+    return "E"
+  elsif str == "..."
+    return "S"
   end
 end
 
@@ -33,7 +32,7 @@ def decode_word(word)
     new_char = decode_char(str)
     output += new_char
   end
-  output
+  return output
 end
 
 def decode(sentence)
@@ -44,7 +43,7 @@ def decode(sentence)
     new_word = decode_word(word)
     output += new_word
   end
-  output
+  return output
 end
 
-decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ...')
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ...')
