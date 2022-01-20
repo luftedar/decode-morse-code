@@ -31,3 +31,20 @@ def decode_word(word)
   end
   output
 end
+
+def decode(sentence)
+  output = ''
+  new_word = ''
+  sentence_array = sentence.split('   ')
+  sentence_array.each do |word|
+    new_word = decode_word(word)
+    output = "#{output}#{new_word} "
+  end
+  output
+end
+
+puts decode_char('.-')
+puts decode_char('--')
+puts decode_char('-.--')
+puts decode_word('-- -.--')
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ...')
