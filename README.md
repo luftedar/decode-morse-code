@@ -1,65 +1,43 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Decode Morse Code
 
-> One paragraph statement about the project.
+## Description
 
-![screenshot](./app_screenshot.png)
+Decode morse code using ruby to find a treasure chest.
 
-Additional description about the project and its features.
+## ScreenShot
+
+![image](https://user-images.githubusercontent.com/74814780/150293889-0e92d6e1-fc7c-4b6d-bd3c-7e65788d83c0.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
 
-## Live Demo
+- Linters such as:
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Rubocop
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/luftedar)
+- 
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/orcunugur)
+
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- [githubhandle](https://github.com/Ugboaja-Uchechi)
+
+- [LinkedIn](https://www.linkedin.com/in/stephanie-ugboaja-930a2a216/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
 ## Show your support
 
